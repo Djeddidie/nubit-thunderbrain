@@ -786,7 +786,7 @@ function getRank(score: number): "Spark" | "Pulse" | "Storm" | "SuperBolt" {
 <button
   onClick={() => {
     const tweetText = `My score ${score} in the Nubit ⚡️🧠ThunderBrain Quiz!
-My rank: ${getRank(score)} 🚀. Test yours at 
+My rank: ${getRank(score)} 🚀. Test yours at https://nubit-thunderbrain.vercel.app/
 @nubit_org is where Bitcoin gets faster.`;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
     window.open(twitterUrl, "_blank");
