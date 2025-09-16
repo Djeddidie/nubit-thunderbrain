@@ -140,7 +140,7 @@ const [showAnswerAnim, setShowAnswerAnim] = useState(false);
     question: "What is unique about USD1 on Bitcoin Thunderbolt?",
     options: [
       "It is tied to Ethereum",
-      "It lives natively within Bitcoin’s UTXO model",
+      "It lives natively within Bitcoins UTXO model",
       "It requires custodial wallets",
       "It only works off-chain on sidechains"
     ],
@@ -156,11 +156,11 @@ const [showAnswerAnim, setShowAnswerAnim] = useState(false);
     },
     {
       title: "⚡ Thunderbolt Upgrade",
-      content: `Bitcoin Thunderbolt tackles Bitcoin's limitations: boosting transaction throughput, enhancing programmability, and retaining decentralization. This makes Bitcoin viable for daily use while opening doors to advanced applications.`,
+      content: `Bitcoin Thunderbolt tackles Bitcoins limitations: boosting transaction throughput, enhancing programmability, and retaining decentralization. This makes Bitcoin viable for daily use while opening doors to advanced applications.`,
     },
     {
       title: "🌐 Implications",
-      content: `Bitcoin Thunderbolt reimagines Bitcoin’s infrastructure, enabling instant transactions, dApps, and streamlined asset management—all without compromising decentralization. It positions Bitcoin as the foundation of a new, decentralized global economy.`,
+      content: `Bitcoin Thunderbolt reimagines Bitcoins infrastructure, enabling instant transactions, dApps, and streamlined asset management—all without compromising decentralization. It positions Bitcoin as the foundation of a new, decentralized global economy.`,
     },
   ];
 
@@ -373,7 +373,7 @@ function getRank(score: number): "Spark" | "Pulse" | "Storm" | "SuperBolt" {
             <div className="bg-white/20 backdrop-blur-md rounded-xl shadow-lg p-6 w-72 text-center text-black hover:scale-105 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2">🚀 Massive Efficiency Gains</h3>
               <p>
-                Off-chain logic reduces congestion, improves throughput, and dramatically increases speed while maintaining Bitcoin's security.
+                Off-chain logic reduces congestion, improves throughput, and dramatically increases speed while maintaining Bitcoins security.
               </p>
             </div>
           </div>
@@ -580,7 +580,7 @@ function getRank(score: number): "Spark" | "Pulse" | "Storm" | "SuperBolt" {
     Every contribution, from staking to deploying and supporting projects, earns recognition through the <strong>Alpha Points</strong> system. Early participants can unlock additional boosts to maximize their rewards.
   </p>
   <p className="text-lg text-black/90 max-w-3xl mx-auto mb-6">
-    Bitcoin Alpha projects are backed by academic researchers and leading funds, focusing on real products, resilient infrastructure, and active builders driving Bitcoin's momentum forward.
+    Bitcoin Alpha projects are backed by academic researchers and leading funds, focusing on real products, resilient infrastructure, and active builders driving Bitcoins momentum forward.
   </p>
 
   <div className="flex flex-wrap justify-center gap-6 mt-8">
