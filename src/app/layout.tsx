@@ -1,5 +1,10 @@
 import "./globals.css";
 
+export const metadata = {
+  title: "⚡️🧠ThunderBrain Quiz", // 🟢 Нова назва
+  description: "Take the ultimate Nubit ThunderBrain Quiz!"
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
